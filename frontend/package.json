@@ -1,0 +1,19 @@
+{
+  "name": "shopify-helpdesk-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remix vite:dev",
+    "build": "remix vite:build",
+    "start": "remix-serve build/index.js"
+  },
+  "dependencies": {
+    "@remix-run/node": "^2.15.2",
+    "@remix-run/react": "^2.15.2",
+    "@remix-run/serve": "^2.15.2",
+    "@shopify/app-bridge-react": "^4.1.5",
+    "@shopify/polaris": "^13.9.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
