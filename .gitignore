@@ -1,0 +1,180 @@
+# =========================
+
+# GENERAL
+
+# =========================
+
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =========================
+
+# ENV FILES (CRITICAL)
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# PYTHON (BACKEND)
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# virtual environments
+
+venv/
+env/
+.venv/
+
+# distribution / build
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# pytest / coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy / lint
+
+.mypy_cache/
+.dmypy.json
+
+# =========================
+
+# FASTAPI / UVICORN
+
+# =========================
+
+*.db
+*.sqlite3
+
+# =========================
+
+# CELERY / REDIS
+
+# =========================
+
+celerybeat-schedule
+*.pid
+
+# =========================
+
+# NODE / FRONTEND (REMIX)
+
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build outputs
+
+.build/
+dist/
+.cache/
+
+# remix specific
+
+public/build/
+.remix/
+
+# =========================
+
+# SHOPIFY APP
+
+# =========================
+
+.shopify/
+.shopify-cli.yml
+
+# =========================
+
+# TYPESCRIPT
+
+# =========================
+
+*.tsbuildinfo
+
+# =========================
+
+# IDE / EDITOR
+
+# =========================
+
+.vscode/
+.idea/
+*.iml
+
+# =========================
+
+# OS FILES
+
+# =========================
+
+*.zip
+*.tar
+*.gz
+
+# =========================
+
+# DOCKER (OPTIONAL)
+
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+
+# SECRETS / KEYS
+
+# =========================
+
+*.pem
+*.key
+*.crt
+
+# =========================
+
+# LOGS
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# TEMP FILES
+
+# =========================
+
+tmp/
+temp/
+
+# =========================
+
+# DATABASE DUMPS
+
+# =========================
+
+*.sql
+*.dump

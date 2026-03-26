@@ -7,7 +7,7 @@ from backend.schemas.common import TicketCreate, TicketUpdate
 
 
 router = APIRouter(prefix='/tickets', tags=['tickets'])
-
+    
 
 @router.get('')
 def list_tickets(shop_id: int, db: Session = Depends(get_db)):
